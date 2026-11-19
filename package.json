@@ -1,0 +1,22 @@
+{
+  "name": "meterse-investor-journey",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "bundle": "node export-deck.js --bundle",
+    "test": "node deck-tests.js",
+    "export": "node export-deck.js"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/poppins": "5.2.7",
+    "gsap": "3.15.1"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "playwright": "^1.58.0",
+    "pptxgenjs": "^4.0.1",
+    "sharp": "^0.34.5",
+    "wawoff2": "^2.0.1"
+  }
+}
