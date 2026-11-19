@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "npm run bundle",
     "bundle": "node export-deck.js --bundle",
     "test": "node deck-tests.js",
     "export": "node export-deck.js"
